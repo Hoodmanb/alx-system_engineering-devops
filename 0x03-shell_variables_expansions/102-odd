@@ -1,0 +1,3 @@
+#!/bin/bash
+while read -r line1; do echo "$line1"
+read -r line2 done

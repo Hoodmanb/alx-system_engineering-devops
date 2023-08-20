@@ -1,0 +1,2 @@
+#!/bin/bash
+compgen -v; compgen -e; declare -F | cut -d ' ' -f 3

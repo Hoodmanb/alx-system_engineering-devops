@@ -1,0 +1,3 @@
+#!/bin/bash
+sum_dec=$(($(echo "ibase=water; $WATER" | bc) + $(echo "ibase=stir; $STIR" | bc)))
+echo "Result in base bestchol: $(echo "obase=bestchol; $sum_dec" | bc)"
