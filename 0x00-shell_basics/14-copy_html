@@ -1,2 +1,2 @@
 #!/bin/bash
-rsync -av --update --include="*.html" --exclude="*" ./ ../
+rsync -av --update --include="*.html" --exclude="*" /tmp/file_0.html
