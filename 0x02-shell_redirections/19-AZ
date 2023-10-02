@@ -1,0 +1,3 @@
+#!/bin/bash
+read -p "Enter a string: " input_string
+echo "Modified string: ${input_string//A/Z}" | sed 's/c/e/g'
