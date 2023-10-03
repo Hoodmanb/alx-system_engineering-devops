@@ -1,0 +1,4 @@
+#!/bin/bash
+if [ -d "/action" ] then
+echo "export PATH=\$PATH:/action" >> ~/.bashrc
+fi
