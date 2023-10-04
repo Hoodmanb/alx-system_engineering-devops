@@ -1,3 +1,2 @@
 #!/bin/bash
-for word in "${words[@]}"; do ((frequency["$word"]++)); done
-for word in "${!frequency[@]}"; do if ((frequency["$word"] == 1)); then echo "$word"; fi done | sort
+sort | uniq -u
