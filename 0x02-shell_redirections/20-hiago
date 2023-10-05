@@ -1,3 +1,2 @@
 #!/bin/bash
-output=$(tr -c 'cC' ' ' <<< "$input")
-
+tr -c 'cC' ' ' < "$@"
