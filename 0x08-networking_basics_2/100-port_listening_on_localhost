@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#Bash script that Listens to 98 on localhost
+
+nc -l localhost 98
