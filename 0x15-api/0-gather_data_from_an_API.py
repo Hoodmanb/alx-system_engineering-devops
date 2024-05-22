@@ -19,7 +19,7 @@ if __name__ == '__main__':
             if item.get("completed") is True:
                 completed += 1
                 task_list.append(item.get("title"))
-    print("Employee {} is done with tasks({}/{})".format
+    print("Employee {} is done with tasks({}/{}):".format
           (name, completed, tasks))
 
     for i in task_list:
