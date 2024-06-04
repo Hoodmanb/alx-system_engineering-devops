@@ -18,7 +18,7 @@ def top_ten(subreddit):
         None
     """
     url = "https://www.reddit.com/r/{}/hot.json".format(subreddit)
-    headers = {"User-Agent": "chrome 5.8"}
+    headers = {"User-Agent": "custom_user_agent_v1.0"}
     params = {"limit": 10}
     response = requests.get(url, headers=headers, allow_redirects=False,
                             params=params)
@@ -29,3 +29,7 @@ def top_ten(subreddit):
             print(post.get('data', {}).get('title', None))
     else:
         print(None)
+
+
+# Example usage
+# top_ten("python")
